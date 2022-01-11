@@ -1,0 +1,16 @@
+{
+  "name": "inline-secrets",
+  "title": "Inline Secrets",
+  "description": "Allows use of @secret[my secret] tag to have inline secrets",
+  "author": ["jsavko"],
+  "version": "0.0.1",
+  "minimumCoreVersion": "9",
+  "compatibleCoreVersion": "9",
+  "packs": [],
+  "styles": ["inline-secrets.css"],
+	"esmodules": [
+		"./inline-secrets.js"
+	],
+  "manifest": "https://raw.githubusercontent.com/jsavko/inline-secrets/main/module.json",
+  "download": "https://github.com/jsavko/inline-secrets/archive/refs/tags/0.0.1.zip"
+}
