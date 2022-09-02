@@ -1,16 +1,22 @@
 {
-  "name": "inline-secrets",
+  "id": "inline-secrets",
   "title": "Inline Secrets",
   "description": "Allows use of @secret[my secret] tag to have inline secrets",
-  "author": ["jsavko"],
+  "authors": [{
+    "name": "James Savko",
+    "discord": "Phoenix#0009"
+}],
   "version": "0.0.2",
-  "minimumCoreVersion": "10",
-  "compatibleCoreVersion": "10",
+  "compatibility": {
+    "minimum": 10,
+    "verified": "10"
+  },
   "packs": [],
   "styles": ["inline-secrets.css"],
 	"esmodules": [
 		"./inline-secrets.js"
 	],
+  "url":"github.com/jsavko/inline-secrets/",
   "manifest": "https://raw.githubusercontent.com/jsavko/inline-secrets/main/module.json",
   "download": "https://github.com/jsavko/inline-secrets/archive/refs/tags/0.0.2.zip"
 }
